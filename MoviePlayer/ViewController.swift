@@ -23,9 +23,24 @@ class ViewController: UIViewController {
         playVideo(url: url)
     }
     
+    @IBAction func btnPlayInternalMovie2(_ sender: UIButton) {
+        // 내부 파일 mov
+        let filePath: String? = Bundle.main.path(forResource: "Mountaineering", ofType: "mov")
+        let url = NSURL(fileURLWithPath: filePath!)
+        
+        playVideo(url: url)
+    }
+    
     @IBAction func btnPlayExternalMovie(_ sender: UIButton) {
         // 외부 파일 mp4
         let url = NSURL(string: "https://dl.dropboxusercontent.com/s/e38auz050w2mvud/Fireworks.mp4")!
+        
+        playVideo(url: url)
+    }
+    
+    @IBAction func btnPlayExternalMovie2(_ sender: UIButton) {
+        // 외부 파일 mov
+        let url = NSURL(string: "https://dl.dropboxusercontent.com/s/ijybpprsmx0bgre/Fireworks.mov")!
         
         playVideo(url: url)
     }
