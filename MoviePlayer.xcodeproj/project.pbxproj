@@ -13,6 +13,9 @@
 		B250E30128241BB6006A5C3C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B250E2FF28241BB6006A5C3C /* Main.storyboard */; };
 		B250E30328241BB8006A5C3C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B250E30228241BB8006A5C3C /* Assets.xcassets */; };
 		B250E30628241BB8006A5C3C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B250E30428241BB8006A5C3C /* LaunchScreen.storyboard */; };
+		B250E31028241C36006A5C3C /* FastTyping.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B250E30D28241C36006A5C3C /* FastTyping.jpg */; };
+		B250E31128241C36006A5C3C /* FastTyping.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = B250E30E28241C36006A5C3C /* FastTyping.mp4 */; };
+		B250E31228241C36006A5C3C /* Fireworks.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B250E30F28241C36006A5C3C /* Fireworks.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		B250E30228241BB8006A5C3C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B250E30528241BB8006A5C3C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B250E30728241BB8006A5C3C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B250E30D28241C36006A5C3C /* FastTyping.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = FastTyping.jpg; sourceTree = "<group>"; };
+		B250E30E28241C36006A5C3C /* FastTyping.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = FastTyping.mp4; sourceTree = "<group>"; };
+		B250E30F28241C36006A5C3C /* Fireworks.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Fireworks.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +62,9 @@
 		B250E2F828241BB6006A5C3C /* MoviePlayer */ = {
 			isa = PBXGroup;
 			children = (
+				B250E30D28241C36006A5C3C /* FastTyping.jpg */,
+				B250E30E28241C36006A5C3C /* FastTyping.mp4 */,
+				B250E30F28241C36006A5C3C /* Fireworks.jpg */,
 				B250E2F928241BB6006A5C3C /* AppDelegate.swift */,
 				B250E2FB28241BB6006A5C3C /* SceneDelegate.swift */,
 				B250E2FD28241BB6006A5C3C /* ViewController.swift */,
@@ -127,6 +136,9 @@
 			files = (
 				B250E30628241BB8006A5C3C /* LaunchScreen.storyboard in Resources */,
 				B250E30328241BB8006A5C3C /* Assets.xcassets in Resources */,
+				B250E31128241C36006A5C3C /* FastTyping.mp4 in Resources */,
+				B250E31028241C36006A5C3C /* FastTyping.jpg in Resources */,
+				B250E31228241C36006A5C3C /* Fireworks.jpg in Resources */,
 				B250E30128241BB6006A5C3C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

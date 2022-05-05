@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import AVKit
 
 class ViewController: UIViewController {
 
@@ -14,6 +15,23 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
 
-
+    @IBAction func btnPlayInternalMovie(_ sender: UIButton) {
+        // 내부 파일 mp4
+        let filePath: String? = Bundle.main.path(forResource: "FastTyping", ofType: "mp4")
+        let url = NSURL(fileURLWithPath: filePath!)
+        
+        let playerController = AVPlayerViewController()
+        
+        let player = AVPlayer(url: url as URL)
+        playerController.player = player
+        
+        self.present(playerController, animated: true) {
+            player.play()
+        }
+    }
+    @IBAction func btnPlayExternalMovie(_ sender: UIButton) {
+    
+    }
+    
 }
 
